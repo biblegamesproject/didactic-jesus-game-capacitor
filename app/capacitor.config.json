@@ -1,0 +1,11 @@
+{
+  "appId": "com.biblegamesproject.didacticjesusgame",
+  "appName": "didactic-jesus-game",
+  "bundledWebRuntime": false,
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  }
+}
