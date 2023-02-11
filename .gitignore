@@ -25,3 +25,4 @@ android-template/app/app.iml
 node_modules/
 
 www/
+*.keystore
