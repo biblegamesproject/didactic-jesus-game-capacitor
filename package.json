@@ -12,9 +12,13 @@
     "dependencies": {
         "@capacitor/android": "^4.6.3",
         "@capacitor/core": "^4.6.3",
-        "@capacitor/ios": "^4.6.3"
+        "@capacitor/ios": "^4.6.3",
+        "capacitor-resources": "^2.0.5"
     },
     "devDependencies": {
         "@capacitor/cli": "^4.6.3"
+    },
+    "scripts": {
+        "resources": "capacitor-resources -p android,ios"
     }
 }
