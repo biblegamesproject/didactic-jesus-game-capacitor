@@ -9,7 +9,9 @@ You will find it in the stores:
 - [Apple App Store](https://apps.apple.com/us/app/didacticjesusgame/id1671402476)
 - [Android Play Store](https://play.google.com/store/apps/details?id=com.biblegamesproject.didacticjesusgame&pli=1)
 
-Check out the [Bible Games Project](https://biblegamesproject.com)!
+The app is based on a web app created with [RPG Maker](https://www.rpgmakerweb.com). The entire project [here](https://github.com/biblegamesproject/didactic-jesus-game).
+
+Finally, check out the [Bible Games Project](https://biblegamesproject.com)!
 
 # WIKI
 
