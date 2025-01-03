@@ -10,13 +10,13 @@
         "icon": "icon/icon.png"
     },
     "dependencies": {
-        "@capacitor/android": "^4.6.3",
-        "@capacitor/core": "^4.6.3",
-        "@capacitor/ios": "^4.6.3",
+        "@capacitor/android": "^6.2.0",
+        "@capacitor/core": "^6.2.0",
+        "@capacitor/ios": "^6.2.0",
         "capacitor-resources": "^2.0.5"
     },
     "devDependencies": {
-        "@capacitor/cli": "^4.6.3"
+        "@capacitor/cli": "^6.2.0"
     },
     "scripts": {
         "resources": "capacitor-resources -p android,ios"

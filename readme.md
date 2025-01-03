@@ -16,17 +16,13 @@ Finally, check out the [Bible Games Project](https://biblegamesproject.com)!
 # WIKI
 
 ### INIT CAPACITOR
-npm init @capacitor/app
-cd www
-npm install
-cd ..
-npm i @capacitor/core
-npm i -D @capacitor/cli
-npx cap init
-npm i @capacitor/android @capacitor/ios
-npx cap add ios
-npx cap add android
-npx cap sync
+- npm install
+- Create www directory
+- Copy all rpgmaker project inside wwww
+- npx cap add android
+- npx cap add ios
+- npx cap sync
+- npx cap open android / ios
 
 ---
 
@@ -43,14 +39,8 @@ npx cap sync
 
 ---
 
-### BUILD ANDROID
-npx cap build --keystorepath path --keystorepass password --keystorealias alias --keystorealiaspass password android
-
----
-
-### iOS ERROR: No such module 'Capacitor'
-- First your should open the Xcode Workspace: 'npx cap open ios' (App.xcworkspace instead of App.xcodeproj).
-- When the error persists try:
-   sudo arch -x86_64 gem install ffi
-   cd ios/App
-   arch -x86_64 pod install
+### BUILD ANDROID (PROD)
+- Change build number and version name
+  - android/app/build.gradle
+- Set the .jks inside android folder
+- npx cap build --keystorepath path --keystorepass password --keystorealias alias --keystorealiaspass password android
