@@ -39,7 +39,8 @@ Finally, check out the [Bible Games Project](https://biblegamesproject.com)!
 
 ---
 
-### BUILD ANDROID (PROD)
+### RELEASE ANDROID
+- npx cap sync android
 - Change build number and version name
   - android/app/build.gradle
 - Set the .jks inside android folder
